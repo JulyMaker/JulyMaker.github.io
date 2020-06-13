@@ -1,0 +1,67 @@
+global:
+  site_title: July Page web
+  site_description: Sitio Web de Julio Martin
+langs:
+  english: Ingles
+  spanish: Español
+  en: EN
+  es: ES
+navbar:
+  about: Sobre mí
+  contact: Contacto
+titles:
+  about: Sobre mí
+  contact: Contacto
+
+  
+# Typewrite text
+typewrite_intro: Yo soy
+typewrite_lines:
+  - text: "Ingeniero especializado en Informática Gráfica"
+  - text: "Judoka"
+  - text: "Desarrollador"
+  - text: "Deportista"
+  - text: "Fotógrafo"
+  - text: "Director Técnico de proyectos 3D"
+  - text: "=)"
+
+#############
+# About page
+#############
+
+title_bio: Acerca de
+title_projects: Proyectos
+title_work: Experiencia
+title_education: Educación
+title_coding: Actividad de programación
+title_skills: Aptitudes
+
+author_bio: Hola, mi nombre es Julio Martin. Soy Ingeniero Informático especializado en Informática Gráfica y también soy Judoka =)
+
+title_projects: Proyectos
+
+# Work experiences
+author_work_experiences:
+  - company_name: Dassault Systemes
+    designation: Software R&D Engineer
+    description: Desarrollo del proyecto 3DExperience, plataforma multidisciplinar y colaborativa.
+  - company_name: Next Limit
+    designation: Software Engineer
+    description: Trabajando en el proyecto XFlow. CFD lattice Boltzmann simulador de fluidos para empresas de automoción, aeronáutica y nautica principalmente.
+  - company_name: Human Brain Project
+    designation: Software Engineer
+    description: Desarrollo de metodologías de compresión de mallas y simulación dentrítica de axones.
+  - company_name: Compusoft
+    designation: IT Engineer
+    description: Proyectos para Telefónica, BBVA, Instituto de Salud Carlos III
+
+# Education details
+author_education_details:
+  - college_id: URJCMaster
+    college_name: URJC
+    college_degree: Master en Informática Gráfica
+    description: Informática Gráfica, Juegos y Realidad Virtual
+  - college_id: URJCGrado
+    college_name: UCM
+    college_degree: Ingeniería de Computadores
+    description: Grado en Ingeniería de Computadores

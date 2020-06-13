@@ -1,0 +1,8 @@
+
+<iframe id="spotify_follow" src="" width="300" height="56" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe>
+
+<script>
+    let iframe = document.getElementById('spotify_follow');
+    let theme = sessionStorage.getItem('theme');
+    iframe.src = "https://open.spotify.com/follow/1/?uri=spotify:user:{{site.spotify_username}}ju&size=detail&theme="+theme;
+</script>

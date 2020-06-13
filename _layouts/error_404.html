@@ -1,0 +1,22 @@
+---
+layout: default
+error: true
+header: false
+footer: false
+---
+
+<div class="sea">
+    <div class="error_message">
+        <h1>Oops!!</h1>
+        <h2>It looks like you are missing in the sea</h2>
+        <h3>The page que you are looking for doesn't exists.</h3>
+        <span>Error code: 404</span>
+        <a class="btn" href="{{site.url}}{{site.baseurl}}">
+            Go back to Homepage
+        </a>
+    </div>
+    <div class="counter"><h1><span>0</span> FISHes</h1></div>
+    <div class="pond"></div>
+</div>
+
+<script src="/assets/js/error_404.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>

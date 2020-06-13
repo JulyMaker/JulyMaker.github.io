@@ -1,0 +1,69 @@
+global:
+  english: English
+  spanish: Spanish
+  en: EN
+  es: ES
+  site_title: July website
+  site_description: Julio Martin personal page
+langs:
+  english: English
+  spanish: Spanish
+  en: EN
+  es: ES
+navbar:
+  about: About me
+  contact: Contact
+titles:
+  about: About me
+  contact: Contact
+
+  
+# Typewrite text
+typewrite_intro: I am a
+typewrite_lines:
+  - text: "Computer Graphics Engineer"
+  - text: "Judoka"
+  - text: "Developer"
+  - text: "Sporty"
+  - text: "Photographer"
+  - text: "3D Technical Developer"
+  - text: "=)"
+
+
+#############
+# About page
+#############
+title_bio: About me
+title_projects: Projects
+title_work: Work Experience
+title_education: Education
+title_coding: Coding Activity
+title_skills: Skills
+
+author_bio: Hi, my name is Julio Martin. I am a Computer Graphics Engineer and Judoka =)
+
+# Work experiences
+author_work_experiences:
+  - company_name: Dassault Systemes
+    designation: Software R&D Engineer
+    description: Developing 3DExperience, multidisciplinary and collaborative platform.
+  - company_name: Next Limit
+    designation: Software Engineer
+    description: Working on XFlow project. Lattice Boltzmann CFD.
+  - company_name: Human Brain Project
+    designation: Software Engineer
+    description: Mesh compression methodologies and neural connections simulations.
+  - company_name: Compusoft
+    designation: IT Engineer
+    description: Telefonica, BBVA, Instituto de Salud Carlos III projects.
+
+# Education details
+author_education_details:
+  - college_id: URJCMaster
+    college_name: URJC
+    college_degree: Masters Degree Computer Graphics
+    description: Computer Graphics, Games and Virtual Reality
+  - college_id: URJCGrado
+    college_name: URJC
+    college_degree: Computer Engineer
+    description: Computer Science Degree

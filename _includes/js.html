@@ -1,0 +1,60 @@
+<!-- Script for loading bar -->
+
+<script>
+    var options = {
+        classname: 'my-class',
+        id: 'my-id'
+    };
+    var nanobar = new Nanobar( options );
+    nanobar.go( 30 );
+    nanobar.go( 76 );
+    nanobar.go(100);
+</script>
+
+<!-- Script language switcher -->
+<script src="{{ site.url }}{{site.baseurl_root}}/assets/js/mode-switcher.js"></script>
+
+{% if page.title == Home %}
+<!-- Script typeWrite -->
+<script src="{{ site.url }}{{site.baseurl_root}}/assets/bower_components/typed.js/lib/typed.min.js"></script>
+<script>
+    var myQuotes =  new Array();
+    {% for line in site.translations[site.lang]["typewrite_lines"] %}
+        myQuotes.push("{{ line.text }}");
+    {% endfor %}
+
+    var typed = new Typed('#{{ site.typewrite_htmlId }}', {
+        strings: myQuotes,
+        typeSpeed: {{ site.typewrite_typeSpeed }},
+        backSpeed: {{ site.typewrite_backSpeed }},
+        backDelay: {{ site.typewrite_backDelay }},
+        startDelay: {{ site.typewrite_startDelay }},
+        shuffle: {{ site.typewrite_shuffle }},
+        loop: {{ site.typewrite_loop }},
+        loopCount: {{ site.typewrite_loopCount }},
+        cursorChar: '{{ site.typewrite_cursorChar }}'
+    });
+
+</script>
+{% endif %}
+
+{% if false %}
+<!-- Script debug jekyll variables -->
+<script>
+    var jekyll_site = JSON.parse(decodeURIComponent("{{ site | jsonify | uri_escape }}"));
+    var jekyll_page = JSON.parse(decodeURIComponent("{{ page | jsonify | uri_escape }}"));
+    var jekyll_layout = JSON.parse(decodeURIComponent("{{ layout | jsonify | uri_escape }}"));
+    var jekyll_content = JSON.parse(decodeURIComponent("{{ content | jsonify | uri_escape }}"));
+    var jekyll_paginator = JSON.parse(decodeURIComponent("{{ paginator  | jsonify | uri_escape }}"));
+    var pretty_site = JSON.stringify(jekyll_site, null, 4);
+    var pretty_page = JSON.stringify(jekyll_page, null, 4);
+    var pretty_layout = JSON.stringify(jekyll_layout, null, 4);
+    var pretty_content = JSON.stringify(jekyll_content, null, 4);
+    var pretty_paginator = JSON.stringify(jekyll_paginator, null, 4);
+    console.log(pretty_site);
+    console.log(pretty_page);
+    console.log(pretty_layout);
+    console.log(pretty_content);
+    console.log(pretty_paginator);
+</script>
+{% endif %}
