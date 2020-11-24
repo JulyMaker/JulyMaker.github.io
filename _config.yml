@@ -2,7 +2,7 @@ title: July Web Page
 subtitle: Personal site
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site of Julio Martin (a.k.a. July)
-url: "https://JulioUrjc.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://julymaker.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 ### Multi-Languag variable
@@ -35,7 +35,7 @@ author_name: Julio
 author_lastname: Martin
 author_email: "julio.martin.saez@gmail.com"
 author_location: Madrid
-author_website_url: "http://JulioUrjc.github.com"
+author_website_url: "http://julymaker.github.com"
 
 # Typewrite config
 typewrite_htmlId: input-typewrite
@@ -94,7 +94,7 @@ author_education_details:
 
 # social links
 twitter_username: JulioMartinSaez
-github_username:  JulioUrjc
+github_username:  JulyMaker
 facebook_username: null
 linkedin_username: julio-martin-saez
 behance_username: null
