@@ -10,7 +10,7 @@ require "rubygems"
 # Auto publish
 
 # Change your GitHub reponame
-GITHUB_REPONAME = "JulioUrjc/JulioUrjc.github.io"
+GITHUB_REPONAME = "julymaker/julymaker.github.io"
 
 
 desc "Generate blog files"
@@ -30,7 +30,7 @@ task :publish => [:generate] do
     Dir.chdir tmp
 
     system "git init"
-    system "git config --local user.name JulioUrjc"
+    system "git config --local user.name JulyMaker"
     system "git config --local user.email julio.martin.saez@gmail.com"
     system "git add ."
 	  message = "Site updated at #{Time.now.utc}"
