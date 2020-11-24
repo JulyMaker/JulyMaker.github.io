@@ -20,7 +20,11 @@ GEM
     eventmachine (1.2.7-x64-mingw32)
     faraday (1.1.0)
       multipart-post (>= 1.2, < 3)
+<<<<<<< HEAD
       ruby2_keywords
+=======
+    ffi (1.13.1)
+>>>>>>> 9e4a5a6ba44068d2854145f1329275ea368f352c
     ffi (1.13.1-x64-mingw32)
     forwardable-extended (2.6.0)
     http_parser.rb (0.6.0)
