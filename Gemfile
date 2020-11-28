@@ -22,7 +22,6 @@ group :jekyll_plugins do
     gem 'jekyll-seo-tag', '~> 2.6.1'
     gem 'jekyll-sitemap', '~> 1.4.0'
     gem 'jekyll-menus', '~> 0.6.1'
-    gem 'jekyll-admin', '~> 0.9.0'
     gem 'jekyll-multiple-languages-plugin', '~> 1.6.0'
 end
 
