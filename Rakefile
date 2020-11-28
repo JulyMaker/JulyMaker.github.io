@@ -14,6 +14,7 @@ GITHUB_REPONAME = "julymaker/julymaker.github.io"
 
 
 desc "Generate blog files"
+ENV["JEKYLL_ENV"] = "production"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
     "source"      => ".",
