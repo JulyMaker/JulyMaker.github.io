@@ -1,15 +1,15 @@
-### Step 1
+## Step 1
 
 Use your-github-username.github.io as the new repo ( Replace your-github-username with yours).
 
-### Step 2
+## Step 2
 ```
  $ git clone https://github.com/yourusername/yourusername.github.io
  $ cd yourusername.github.io
  $ code .
  ```
 
-### Step 3
+## Step 3
 
  Open the files using VSCode and edit _config.yml and edit with your details:
 
@@ -21,7 +21,7 @@ Use your-github-username.github.io as the new repo ( Replace your-github-usernam
     _assets/img - Add all your images here
 ```
 
-### Step 4
+## Step 4
 
  Install the development requirements:
 
@@ -38,7 +38,7 @@ $ bundle add jekyll
 $ bundle exec jekyll -v
 ```
 
-### Step 5
+## Step 5
 
  Serve the site locally by running the following command below:
 
@@ -52,12 +52,12 @@ $ jekyll serve
 
  Visit http://localhost:4000 for development server
 
-### Step 5
+## Step 6
 
 Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
 
-####YAML Post Example:
-```YAML
+ ####YAML Post Example:
+```yaml
 ---
 layout: post
 title: Sample Post
@@ -72,8 +72,8 @@ thumbnail: sample.png
 Hi ! This is sample post.
 ```
 
-####YAML Page Example:
-```YAML
+ ####YAML Page Example:
+```yaml
 ---
 layout: page
 title: Sample Page
@@ -84,9 +84,9 @@ permalink: /sample-page/
 Hi ! This is sample page.
 ```
 
-####Stylesheet : You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
+ ####Stylesheet : You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
 
-### Step 6
+## Step 7
 
 Once happy with your blog changes. Push your changes to dev branch.
 
@@ -96,6 +96,6 @@ Once happy with your blog changes. Push your changes to dev branch.
  $ git push origin devBranch
 ```
 
-### Step 7
+## Step 8
 
 Go to production md for more information
