@@ -25,10 +25,11 @@ Use your-github-username.github.io as the new repo ( Replace your-github-usernam
 
  Install the development requirements:
 
-
-    1.[Git](https://git-scm.com/)
-    2.[Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/)
-    3.[VSCode](https://code.visualstudio.com/download)
+   [Git](https://git-scm.com/)
+   
+   [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/)
+   
+   [VSCode](https://code.visualstudio.com/download)
 
 ```
 $ ruby -v
