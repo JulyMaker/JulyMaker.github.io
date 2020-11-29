@@ -15,7 +15,6 @@ Use your-github-username.github.io as the new repo ( Replace your-github-usernam
 
 
 ```
-
     _config.yml file - replace with your own details
     _posts - Add your blog posts here
     _includes - You can replace the contents of the files with your data. (contains widgets)
@@ -27,9 +26,9 @@ Use your-github-username.github.io as the new repo ( Replace your-github-usernam
  Install the development requirements:
 
 
-    Git
-    Ruby and Bundler
-    VSCode
+    1.[https://git-scm.com/](Git)
+    2.[https://www.ruby-lang.org/en/](Ruby) and [https://bundler.io/](Bundler)
+    3.[https://code.visualstudio.com/download](VSCode)
 
 ```
 $ ruby -v
@@ -57,8 +56,35 @@ $ jekyll serve
 
 Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
 
+####YAML Post Example:
+```YAML
+---
+layout: post
+title: Sample Post
+author: Sujay Kundu
+date: '2019-05-21 14:35:23 +0530'
+category:
+        - jekyll
+summary: This is the summary for the sample post
+thumbnail: sample.png
+---
 
-Stylesheet : You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
+Hi ! This is sample post.
+```
+
+####YAML Page Example:
+```YAML
+---
+layout: page
+title: Sample Page
+menus: header
+permalink: /sample-page/
+---
+
+Hi ! This is sample page.
+```
+
+####Stylesheet : You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
 
 ### Step 6
 
