@@ -1,6 +1,6 @@
 ## jekyll-multiple-laguages plug-in by [Raquel Fishes post](https://raquelfishes.github.io/jekyll/github%20pages/2020/08/13/multilanguage-jekyll/)
 
-Hay varios modos de instalar el plugin jekyll-multiple-languages. Si necesitáis más información podeis dirigiros al repositorio del proyecto. ¡Buscan colaboradores!
+Hay varios modos de instalar el plugin [jekyll-multiple-languages](https://github.com/kurtsson/jekyll-multiple-languages-plugin). Si necesitáis más información podeis dirigiros al repositorio del proyecto. ¡Buscan colaboradores!
 
 ## Usando una gema de Ruby
 
