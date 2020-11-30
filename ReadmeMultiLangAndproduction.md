@@ -18,7 +18,7 @@ O instalar la gema concreta:
 $ gem install jekyll-multiple-languages-plugin
 ```
 
-Para activar el plugin añadirlo al fichero de Jekyll ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `_config.yml`, bajo la opcion de plugins:
+Para activar el plugin añadirlo al fichero de Jekyll ```diff !_config.yml```, bajo la opcion de plugins:
 ```yml
 plugins:
   - jekyll-multiple-languages-plugin
@@ -90,7 +90,7 @@ navbar:
 ```
 
 en.yml
-```
+```yml
 global:
   site_title: Raquel Fishes website
   site_description: Raquel Fishes personal page
@@ -124,7 +124,7 @@ localhost:4000/en/about
 ## Intercambio de idiomas
 
 Si añadimos la funcionalidad de multi-idioma, también hay que añadir un botón de switch para cambiar entre idiomas. Eso lo puedes hacer de forma bastante sencilla. En mi caso lo he añadido con iconos de idioma en la barra de navegación.
-```jekyll
+```html
 <li class="nav-item">
   {% if site.lang == "es" %}
     {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url }}{% endcapture %}
@@ -143,7 +143,7 @@ Este es el punto más controvertido de todo el desarrollo. Hasta aquí puedes te
 ## Crear una rama y ponerla como default
 
 En primer lugar vamos a cambiar nuestra rama principal, para guardar todo nuestro historial de código a una rama diferente a master. Puede que ya trabajes con una rama de desarrollo y otra de procucción, pero si no es así es el momento de crearla. Ejecuta los siguientes comandos en tu repositorio en local, en mi caso mi rama para guardar el historial la he llamado source:
-```
+```git
 $ git checkout -b source master
 $ git push -u origin source
 ```
@@ -163,7 +163,7 @@ end
 
 Simplemente compilaba como podemos compilar en nuestro local, pero eso ahora no funcionará porque Github no soporta el plugin que queremos que incorpore nuestro proyecto de Jekyll. Ahora nuestro fichero de Rake necesitamos que nos copie la página compilada ya a nuestra rama master y la suba tal cual, evitando que Github haga ese paso. Para ello nuestro fichero de compilación será:
 
-```
+```rake
 require "jekyll"
 require "tmpdir"
 require "rubygems"
