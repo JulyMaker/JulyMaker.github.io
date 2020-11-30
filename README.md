@@ -1,29 +1,34 @@
 Sync at 13/06/2020
 
-### devlopr-jekyll - A Beautiful Jekyll Theme Built for Developers
+### July Web Page
 
 [![Gem Version](https://badge.fury.io/rb/devlopr.svg)](https://badge.fury.io/rb/devlopr)![workflow-badge](https://github.com/sujaykundu777/devlopr-jekyll/workflows/deploy/badge.svg)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4232ac2b-63e0-4c78-92e0-e95aad5ab8c3/deploy-status)](https://app.netlify.com/sites/devlopr/deploys)
-![](https://ruby-gem-downloads-badge.herokuapp.com/devlopr?type=total&color=brightgreen&style=plastic)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
-Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
-The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
+Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site.
+The Theme supports both Light and Dark Style and multi languajes. Highly Customizable and No Hosting or Maintainence Cost is required !
 
-### [Installation Guide](ReadmeIntallationGuide.md)
+### [Installation Guide](ReadmeIntallationGuide.md) 🛠️
 
 You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
-### [Production Guide](ReadmeMultiLangAndproduction.md)
+### [Production Guide](ReadmeMultiLangAndproduction.md) 📢
 
-### [Docker Guide](ReadmeDocker.md)
+### [Docker Guide](ReadmeDocker.md) 🚀
 
 
-## Contributors:
+### <a name="Author">Author ✒️
 
-### Backers
+* **Julio Martin** - *Initial work and documentation* - [JulioMartin](https://github.com/JulioUrjc)
 
-Thanks to all our Backers ! 🙏 [Become a Backer](https://opencollective.com/devlopr-jekyll#backer)
+<!-- También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.--> 
+
+### <a name="Thankyou">Thank you 🎁
+
+ <!-- 📢 🍺 🤓 📄 📌 🖇️ 🔧 ⌨️ 🔩 ⚙️ 🚀 📋-->
+
+- Repo fork https://github.com/sujaykundu777
+
 
 ## Licence
 
