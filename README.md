@@ -10,13 +10,13 @@ Sync at 13/06/2020
 Just a little something I'm using to jump start a site refresh. I like to think of it as a starter for building your own Jekyll site. I purposely keep the styling minimal and bare to make it easier to add your own flare and markup.
 The Theme supports both Light and Dark Style. Highly Customizable and No Hosting or Maintainence Cost is required !
 
-### [Installation Guide](https://devlopr.netlify.app/get-started)
+### [Installation Guide](ReadmeIntallationGuide.md)
 
 You can easily manage the site using the admin : [http://localhost:4000/admin](http://localhost:4000/admin)
 
-### [Production Guide](https://devlopr.netlify.app/get-started)
+### [Production Guide](ReadmeMultiLangAndproduction.md)
 
-### [Docker Guide](https://devlopr.netlify.app/get-started)
+### [Docker Guide](ReadmeDocker.md)
 
 
 ## Contributors:
