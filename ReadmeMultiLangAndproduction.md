@@ -1,4 +1,4 @@
-## jekyll-multiple-laguages plug-in
+## jekyll-multiple-laguages plug-in by [Raquel Fishes post](https://raquelfishes.github.io/jekyll/github%20pages/2020/08/13/multilanguage-jekyll/)
 
 Hay varios modos de instalar el plugin jekyll-multiple-languages. Si necesitáis más información podeis dirigiros al repositorio del proyecto. ¡Buscan colaboradores!
 
@@ -18,7 +18,8 @@ O instalar la gema concreta:
 $ gem install jekyll-multiple-languages-plugin
 ```
 
-Para activar el plugin añadirlo al fichero de Jekyll ```diff !_config.yml```, bajo la opcion de plugins:
+Para activar el plugin añadirlo al fichero de Jekyll `_config.yml`, bajo la opcion de plugins:
+
 ```yml
 plugins:
   - jekyll-multiple-languages-plugin
@@ -39,7 +40,7 @@ $ git pull origin master
 
 ## Configuración del fichero _config.yml
 
-Una vez instalado el plugin, hay que añadir los idiomas que queramos en nuestro fichero de configuracion _config.yml.
+Una vez instalado el plugin, hay que añadir los idiomas que queramos en nuestro fichero de configuracion **_config.yml**.
 
 ```yml
 # Multi-Language config
@@ -52,9 +53,9 @@ También podemos especificar cual será nuestro idioma por defecto. En caso de n
 
 ## Estructura de directorios
 
-Ya está todo configurado, es la hora de añadir la estructura de ficheros para construir nuestra página con los diferentes idiomas. En un proyecto de Jekyll sin multi-idioma, se compilan los ficheros .md sobre la estructura base, en el caso de los posts, sería bajo la carpeta _posts. En caso de tener multiples idiomas habría que crear ese directorio por cada idioma. Igual para cualquier fichero que cambiemos por idioma.
+Ya está todo configurado, es la hora de añadir la estructura de ficheros para construir nuestra página con los diferentes idiomas. En un proyecto de Jekyll sin multi-idioma, se compilan los ficheros **.md** sobre la estructura base, en el caso de los posts, sería bajo la carpeta **_posts**. En caso de tener multiples idiomas habría que crear ese directorio por cada idioma. Igual para cualquier fichero que cambiemos por idioma.
 
-En primer lugar, en el directorio raíz hay que crear una carpeta con el nombre _i18n y añadir subcarpetas por cada uno de los idiomas usando los mismos nombres que hemos usado en nuestro fichero de configuración. Vuestro directorio de ficheros debería añadir una estructura similar a esta:
+En primer lugar, en el directorio raíz hay que crear una carpeta con el nombre **_i18n** y añadir subcarpetas por cada uno de los idiomas usando los mismos nombres que hemos usado en nuestro fichero de configuración. Vuestro directorio de ficheros debería añadir una estructura similar a esta:
 ```
 _i18n
 │   en.yml
@@ -142,13 +143,13 @@ Este es el punto más controvertido de todo el desarrollo. Hasta aquí puedes te
 
 ## Crear una rama y ponerla como default
 
-En primer lugar vamos a cambiar nuestra rama principal, para guardar todo nuestro historial de código a una rama diferente a master. Puede que ya trabajes con una rama de desarrollo y otra de procucción, pero si no es así es el momento de crearla. Ejecuta los siguientes comandos en tu repositorio en local, en mi caso mi rama para guardar el historial la he llamado source:
+En primer lugar vamos a cambiar nuestra rama principal, para guardar todo nuestro historial de código a una rama diferente a master. Puede que ya trabajes con una rama de desarrollo y otra de procucción, pero si no es así es el momento de crearla. Ejecuta los siguientes comandos en tu repositorio en local, en mi caso mi rama para guardar el historial la he llamado **source**:
 ```git
 $ git checkout -b source master
 $ git push -u origin source
 ```
 
-Luego dirigete a tu repositorio de Github y configura esta rama recien creada como la rama por defecto del proyecto Github web > your repository > Settings > Branches > Default branch
+Luego dirigete a tu repositorio de Github y configura esta rama recien creada como la rama por defecto del proyecto **Github web > your repository > Settings > Branches > Default branch**
 
 ## Rakefile
 
