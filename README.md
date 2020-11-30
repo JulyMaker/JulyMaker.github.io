@@ -19,7 +19,7 @@ You can easily manage the site using the admin : [http://localhost:4000/admin](h
 
 ### <a name="Author">Author ✒️
 
-* **Julio Martin** - *Initial work and documentation* - [JulioMartin](https://github.com/JulioUrjc)
+* **July Maker** - *Initial work and documentation* - [JulyMaker](https://github.com/JulyMaker)
 
 <!-- También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto.--> 
 
