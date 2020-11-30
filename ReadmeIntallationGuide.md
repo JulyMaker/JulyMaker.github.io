@@ -99,4 +99,4 @@ Once happy with your blog changes. Push your changes to dev branch.
 
 ## Step 8
 
-Go to production md for more information
+Go to [production](ReadmeMultiLangAndproduction.md) md for more information
